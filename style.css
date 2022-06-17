@@ -1,0 +1,84 @@
+.Navigation {
+    text-align: center;
+    padding: 17px;
+    background-color: black;
+    border-radius: 13cm;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-family: cursive;
+    font-size: larger;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    border-radius: 90cm;
+}
+
+.DIV1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.DIV1BUTTON {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.DIV2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.DIV2BUTTON {
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.DIV3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.DIV3BUTTON {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 1em;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 1em;
+}
+
+button {
+    border-radius: 13px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+    border: solid hsl(0, 0%, 95%);
+}
+
+img {
+    padding: 1em;
+}

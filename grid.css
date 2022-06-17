@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation {
+    text-align: center;
+    padding: 17px;
+    background-color: white;
+    border-radius: 13cm;
+    margin-top: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-family: cursive;
+    font-size: larger;
+}
+
+body {
+    background-color: black;
+    place-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        'Grid_1 Grid_1 Grid_1 Grid_2 Grid_2'
+        'Grid_1 Grid_1 Grid_1 Grid_2 Grid_2'
+        'Grid_3 Grid_3 Grid_4 Grid_4 Grid_4'
+        'Grid_3 Grid_3 Grid_5 Grid_5 Grid_5'
+    ;
+    margin: 100px auto;
+    gap: 10px;
+    width: 40%;
+    height: 50vh;
+}
+
+.Grid1 {
+    background-color: red;
+    padding: 3em;
+    grid-area: Grid_1;
+}
+
+.Grid2 {
+    background-color: hwb(17 0% 0%);
+    padding: 3em;
+    grid-area: Grid_2;
+}
+
+.Grid3 {
+    background-color: green;
+    padding: 3em;
+    grid-area: Grid_3;
+}
+
+.Grid4 {
+    background-color: blue;
+    padding: 3em;
+    grid-area: Grid_4;
+}
+
+.Grid5 {
+    background-color: blue;
+    padding: 3em;
+    grid-area: Grid_5;
+}
+
+@media {}
